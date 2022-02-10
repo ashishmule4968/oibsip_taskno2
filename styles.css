@@ -1,0 +1,256 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    z-index: 50;
+    position: relative;
+    background-color:white; 
+    text-align: center;
+  } 
+
+header h1{
+  font-family: sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  float: left;
+  padding-left: 30px;
+  padding-top: 15px;
+}
+
+header ul{
+    list-style: none;
+    display: inline-flex;
+  }
+
+header ul li{
+    width: 120px;
+    padding: 10px ;
+    margin: 10px;
+}
+
+header ul li a{
+    position: relative;
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 0.5px;
+  }
+
+header ul li a:after{
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 0px;
+    left: 0px;
+    bottom: -10px;
+    background-color: black;
+    transition: 0.3s;
+  }
+
+header ul li a:hover:after{
+    width: 100%;
+  }
+
+header ul li a:hover{
+    color:black;
+    font-weight: bold;
+  }
+
+#home{
+    height: 570px;
+    position: relative;
+    background-image: url(images/florian-olivo-4hbJ-eymZ1o-unsplash.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color:white;
+    font-family: sans-serif;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 120px;
+}
+
+#home button{
+  width: 200px;
+  height: 60px;
+  background-color: white;
+  border: 3px solid black;
+  color:black;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#home button:hover{
+  border-color: white;
+  background: none;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#home a{
+  text-decoration: none;
+  color: black;
+}
+
+#about{
+  padding-top: 150px;
+  background-color: white;
+  color: black;
+  height: 550px;
+}
+
+#about img{
+  padding-left: 250px;
+}
+
+#about div{
+  float: right;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  width: 600px;
+  height: 300px;
+  padding-right: 150px;
+}
+
+#skills{
+  background-color: black;
+  color: white;
+  height: 700px;
+}
+
+#skills h1{
+  font-size: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  padding-top: 30px;
+  letter-spacing: 2px;
+}
+
+#skills ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+}
+
+#skills div{
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 20px;
+  padding-bottom: 50px;
+  width: 280px;
+  height: 330px;
+  background-color: #2b2b2b;
+  color: white;
+  text-align: center;
+}
+
+#skills div:hover{
+  background-color: white;
+  color: black;
+}
+
+#skills ul li a{
+  text-decoration: none;
+}
+
+#skills img{
+  padding-top: 25px;
+}
+
+
+#project{
+  background-color: lightgoldenrodyellow;
+  height: 800px;
+  padding: 30px;
+}
+
+#project div{
+  background-color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  color: white;
+  border-radius: 7px;
+  width: 450px;
+  height: 270px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#project div:hover{
+  /* background-color: ; */
+  color:yellow;
+  /* border:2px solid black; */
+}
+
+#project h1{
+  text-align: center;
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 60px;
+  padding: 15px;
+  font-weight: bold;
+}
+
+#project ul li a{
+  text-decoration: none;
+}
+
+#project ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#contact{
+  background-color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: large;
+  color: white;
+  padding: 120px;
+  text-align: center;
+  height: 380px;
+  letter-spacing: 2px;
+}
+
+#contact input{
+  width: 400px;
+  height: 30px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 40px;
+  border: 2px solid white;
+}
+
+#contact div{
+  padding-left: 350px;
+}
+
+#contact button{
+  border-radius: 7px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  width: 170px;
+  height: 47px;
+  background-color: white;
+  color: black;
+}
+
+#contact button:hover{
+  border: 2px solid white;
+  color: white;
+  background-color: black;
+}
+
+#contact h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 40px;
+  padding-bottom: 30px;
+}
